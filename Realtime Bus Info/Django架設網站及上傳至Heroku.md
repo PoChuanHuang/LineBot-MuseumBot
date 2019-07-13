@@ -8,6 +8,7 @@
   * 打開命令提示字元
     **1.cd到django_web_file，並進入虛擬環境**  
     > D:\桌面用\蘭陽博物館app\django_web_file>djangogirls_venv\Scripts\activate
+    
     ![image](https://github.com/PoChuanHuang/LineBot-MuseumBot/blob/master/Realtime%20Bus%20Info/%E9%80%B2%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83.png)
     
     **2登入heroku**  
@@ -84,7 +85,7 @@
   
 * **<h3>第三部分為Django使用教學</h3>**    
 首先點開django_web_file/Yilanmumsite檔案目錄
-(這裡要放圖)
+![image](https://github.com/PoChuanHuang/LineBot-MuseumBot/blob/master/Realtime%20Bus%20Info/%E6%AA%94%E6%A1%88%E7%9B%AE%E9%8C%84.png)
 接著點進Yilanmumsite，查看urls.py
 ```gherkin=
 urlpatterns = [
