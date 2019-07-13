@@ -23,7 +23,7 @@
     
     名字限定為小寫、數字、"-" (不能有”_”)
     成功後會產生兩樣東西
-    1.你的專屬網址 -> https://yanyangmumtest.herokuapp.com
+    1.你的專屬網址 -> https://yanyangmumtest.herokuapp.com</br>
     2.git的連結 -> https://git.heroku.com/yanyangmumtest.git
     > heroku apps
     
