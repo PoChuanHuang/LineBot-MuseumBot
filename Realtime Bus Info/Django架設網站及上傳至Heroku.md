@@ -22,7 +22,7 @@
     ![image](https://github.com/PoChuanHuang/LineBot-MuseumBot/blob/master/Realtime%20Bus%20Info/heroku%20create%20yanyangmumtest.png)
     
     名字限定為小寫、數字、"-" (不能有”_”)
-    成功後會產生兩樣東西
+    成功後會產生兩樣東西</br>
     1.你的專屬網址 -> https://yanyangmumtest.herokuapp.com</br>
     2.git的連結 -> https://git.heroku.com/yanyangmumtest.git
     > heroku apps
@@ -101,14 +101,14 @@ urlpatterns = [
     url(r'^$', home),
 ]
 ```
-其中這段就是在設定url
-例如:
-url(r'^back1877/$',back1877),
-就是說在https://yanyangmumtest.herokuapp.com/後面再加上back1877
-變成https://yanyangmumtest.herokuapp.com/back1877/
-就會執行back1877()這個函式
-back1877()在trips檔案目錄裡的view.py
-在view.py裡就會看到爬蟲程式
+其中這段就是在設定url</br>
+例如:</br>
+url(r'^back1877/$',back1877),</br>
+就是說在https://yanyangmumtest.herokuapp.com/後面再加上back1877</br>
+變成https://yanyangmumtest.herokuapp.com/back1877/</br>
+就會執行back1877()這個函式</br>
+back1877()在trips檔案目錄裡的view.py</br>
+在view.py裡就會看到爬蟲程式</br>
 以及很重要的
 ```gherkin=
 return render(request, 'to131.html', {
@@ -120,9 +120,9 @@ return render(request, 'to131.html', {
         'current_time': str(datetime.now()),
         })
 ```
-剛剛執行了urls這個函式，並且傳送back1877這個html_request
-傳送到view.py的back1877()這個函式
-並且進行爬蟲後，
-接著要用render把request、html、各種data，response回去
-其中所有html檔都在templates檔案目錄裡
+剛剛執行了urls這個函式，並且傳送back1877這個html_request</br>
+傳送到view.py的back1877()這個函式</br>
+並且進行爬蟲後，</br>
+接著要用render把request、html、各種data，response回去</br>
+其中所有html檔都在templates檔案目錄裡</br>
 其他python檔都沒用到
