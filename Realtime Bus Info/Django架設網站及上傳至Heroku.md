@@ -18,6 +18,8 @@
     **3.建立一個heroku web(或叫app)**  
     > heroku create yanyangmumtest
     
+    ![image](https://github.com/PoChuanHuang/LineBot-MuseumBot/blob/master/Realtime%20Bus%20Info/heroku%20create%20yanyangmumtest.png)
+    
     名字限定為小寫、數字、"-" (不能有”_”)
     成功後會產生兩樣東西
     一樣是你的專屬網址 ->         https://yanyangmumtest.herokuapp.com
@@ -27,6 +29,8 @@
     可以用這個檢視是否成功產生
     在輸入
     > heroku git:remote -a yanyangmumtest
+    
+    ![image](https://github.com/PoChuanHuang/LineBot-MuseumBot/blob/master/Realtime%20Bus%20Info/heroku%20git%20remote.png)
     
     表示我設定heroku連結到yanyangmumtest這個web/app
     其中是利用git remote到               https://git.heroku.com/yanyangmumtest.git
@@ -52,6 +56,8 @@
       
     **9.初始化資料庫**   
     > heroku run python Yilanmumsite/manage.py migrate
+    
+    ![image](https://github.com/PoChuanHuang/LineBot-MuseumBot/blob/master/Realtime%20Bus%20Info/%E5%88%9D%E5%A7%8B%E5%8C%96.png)
       
     **10.為後台建立一個使用者**
     >heroku run python Yilanmumsite/manage.py createsuperuser
