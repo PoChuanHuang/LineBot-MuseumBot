@@ -1,7 +1,6 @@
 # Django架設網站及上傳至Heroku
 本教學不教怎麼架Django，而是教怎麼去改Django，以及更新到Heroku上
-* **<h3>第一步驟:註冊Heroku</h3>**  
-  到官網上下載[Heroku](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
+* **<h3>第一步驟:註冊Heroku</h3>**  到官網上下載[Heroku](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
 
 * **<h3>第二部分為:開始上傳至heroku</h3>**  
   * 請將django_web_file.zip這個壓縮檔解壓縮，包含虛擬環境，安裝包都在裡面
