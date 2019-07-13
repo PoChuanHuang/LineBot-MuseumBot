@@ -8,6 +8,7 @@
   * 打開命令提示字元
     **1.cd到django_web_file，並進入虛擬環境**  
     > D:\桌面用\蘭陽博物館app\django_web_file>djangogirls_venv\Scripts\activate
+    ![image](https://github.com/PoChuanHuang/LineBot-MuseumBot/blob/master/Realtime%20Bus%20Info/%E9%80%B2%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83.png)
     
     **2登入heroku**  
     會連結到網頁進行登入，登入好就可以關掉網頁了
