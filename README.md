@@ -76,4 +76,4 @@
 * **<h3>第四部分為Django並放在heroku免費雲端服務上面</h3>**  
   * 這部分我們利用Django假設網站並結合爬蟲程式到[勁好行的網站](http://e-landbus.tw/eLandBus/RouteQuery.aspx)爬取即時公車資訊。    
   * 我們將程式打包好放在*Realtime Bus Info*檔案中的*django_web_file.7z*中。   
-  * 使用者可以按照[Django架設網站並上傳Heroku教學.pdf](https://github.com/PoChuanHuang/LineBot-MuseumBot/blob/master/Realtime%20Bus%20Info/Django%E6%9E%B6%E8%A8%AD%E7%B6%B2%E7%AB%99%E5%8F%8A%E4%B8%8A%E5%82%B3%E8%87%B3Heroku.md)將Django放在Heroku上面。
+  * 使用者可以按照[Django架設網站並上傳Heroku教學.](https://github.com/PoChuanHuang/LineBot-MuseumBot/blob/master/Realtime%20Bus%20Info/Django%E6%9E%B6%E8%A8%AD%E7%B6%B2%E7%AB%99%E5%8F%8A%E4%B8%8A%E5%82%B3%E8%87%B3Heroku.md)將Django放在Heroku上面。
