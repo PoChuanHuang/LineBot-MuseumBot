@@ -125,3 +125,14 @@ return render(request, 'to131.html', {
 接著要用render把request、html、各種data，response回去</br>
 其中所有html檔都在templates檔案目錄裡</br>
 其他python檔都沒用到
+
+目前我之前就架設在heroku的網站網址為:https://yilanmumsiteheroku.herokuapp.com/
+後面再加上to131
+         back131
+         to1766
+         back1766
+         tor1
+         backr1
+         to1877
+         back1877
+    即可打開網站。
